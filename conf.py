@@ -22,7 +22,7 @@ copyright = '2020, Wei Wu @lazyparser'
 author = 'Wei Wu @lazyparser'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = 'v1.0-dev'
 
 
 # -- General configuration ---------------------------------------------------
