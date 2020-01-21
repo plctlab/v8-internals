@@ -10,11 +10,11 @@
    :maxdepth: 2
    :caption: Contents:
 
+   bytecodes
 
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
