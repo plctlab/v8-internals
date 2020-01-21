@@ -6,6 +6,8 @@ FIXME: I copied the bytecode list from design doc, url is
 https://docs.google.com/document/d/11T2CRex9hXxoJwbYqVQ32yIPMh0uouUZLdyrtmMoL44
 We should check the source to make sure the doc is up to date.
 
+FIXME 目前注意到实际代码中的字节码与文档中的差异较大了，需要重新调整下内容。
+
 每个字节码需要分析到什么程度的模版：
 
 1. 口语解释这个 bytecode 是要做什么。
@@ -100,13 +102,13 @@ TODO
 StaGlobalSloppy
 -----------------------------------------------------
 
-TODO
+TODO 可能已经被删除
 
 
 StaGlobalStrict
 -----------------------------------------------------
 
-TODO
+TODO 可能已经被删除
 
 
 Context operations
