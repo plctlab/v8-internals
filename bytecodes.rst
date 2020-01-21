@@ -6,6 +6,17 @@ FIXME: I copied the bytecode list from design doc, url is
 https://docs.google.com/document/d/11T2CRex9hXxoJwbYqVQ32yIPMh0uouUZLdyrtmMoL44
 We should check the source to make sure the doc is up to date.
 
+每个字节码需要分析到什么程度的模版：
+
+1. 口语解释这个 bytecode 是要做什么。
+2. 指出具体的代码实现的位置。
+3. 指出在从AST生成Bytecode的过程中的特殊之处，aka 与 AST / 前端的关系。如果没有的话写没有。
+4. 指出与 TurboFan 中的函数的关系。如果没有的话写没有。
+5. 指出与 Runtime 中的函数的关系。列调用的清单进行说明。
+6. 列出与其它字节码的逻辑关系，以及约束。
+7. 给出一个JS代码的例子，生成这个 bytecode，进行讲解。
+8. 加分项：在 turbofan 中如何被翻译。
+
 
 Prefix Bytecodes
 =====================================================
@@ -13,14 +24,12 @@ Prefix Bytecodes
 Wide
 -----------------------------------------------------
 
-TODO
-
+TODO EASY TASK MAYBE
 
 ExtraWide
 -----------------------------------------------------
 
-TODO
-
+TODO EASY TASK MAYBE
 
 Accumulator Load
 =====================================================
@@ -28,7 +37,7 @@ Accumulator Load
 LdaZero
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LdaSmi
@@ -40,13 +49,13 @@ TODO
 LdaUndefined
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LdaNull
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LdaTheHole
@@ -58,19 +67,19 @@ TODO
 LdaTrue
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LdaFalse
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LdaConstant
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Load/Store Globals
@@ -133,19 +142,19 @@ Unary Operators
 Inc
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Dec
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LogicalNot
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TypeOf
@@ -301,19 +310,19 @@ Register Transfers
 Ldar
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Mov
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Star
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 LoadIC operations
@@ -359,67 +368,67 @@ Binary Operators
 Add
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Sub
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Mul
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Div
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Mod
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 BitwiseOr
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 BitwiseXor
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 BitwiseAnd
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 ShiftLeft
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 ShiftRight
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 ShiftRightLogical
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 For..in support
@@ -485,7 +494,7 @@ Illegal bytecode
 Illegal
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 Calls
@@ -545,43 +554,43 @@ Test Operators
 TestEqual
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestNotEqual
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestEqualStrict
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestLessThan
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestGreaterThan
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestLessThanOrEqual
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestGreaterThanOrEqual
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 TestInstanceOf
@@ -608,7 +617,7 @@ TODO
 ToNumber
 -----------------------------------------------------
 
-TODO
+TODO EASY TASK MAYBE
 
 
 ToObject
@@ -723,4 +732,3 @@ DebugBreakExtraWide
 -----------------------------------------------------
 
 TODO
-
