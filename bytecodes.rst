@@ -19,6 +19,8 @@ FIXME 目前注意到实际代码中的字节码与文档中的差异较大了�
 7. 给出一个JS代码的例子，生成这个 bytecode，进行讲解。
 8. 加分项：在 turbofan 中如何被翻译。
 
+TODO: 更新目录，保持跟V8最新代码一致。
+
 
 Prefix Bytecodes
 =====================================================
@@ -26,12 +28,12 @@ Prefix Bytecodes
 Wide
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 ExtraWide
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 Accumulator Load
 =====================================================
@@ -39,7 +41,7 @@ Accumulator Load
 LdaZero
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LdaSmi
@@ -51,13 +53,13 @@ TODO
 LdaUndefined
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LdaNull
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LdaTheHole
@@ -69,19 +71,19 @@ TODO
 LdaTrue
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LdaFalse
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LdaConstant
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Load/Store Globals
@@ -144,19 +146,19 @@ Unary Operators
 Inc
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Dec
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LogicalNot
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TypeOf
@@ -312,19 +314,19 @@ Register Transfers
 Ldar
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Mov
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Star
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 LoadIC operations
@@ -370,67 +372,67 @@ Binary Operators
 Add
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Sub
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Mul
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Div
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Mod
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 BitwiseOr
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 BitwiseXor
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 BitwiseAnd
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 ShiftLeft
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 ShiftRight
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 ShiftRightLogical
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 For..in support
@@ -496,7 +498,7 @@ Illegal bytecode
 Illegal
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 Calls
@@ -556,43 +558,43 @@ Test Operators
 TestEqual
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestNotEqual
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestEqualStrict
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestLessThan
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestGreaterThan
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestLessThanOrEqual
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestGreaterThanOrEqual
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 TestInstanceOf
@@ -619,7 +621,7 @@ TODO
 ToNumber
 -----------------------------------------------------
 
-TODO EASY TASK MAYBE
+TODO
 
 
 ToObject
