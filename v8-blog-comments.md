@@ -9,6 +9,80 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 
 ## V8 Blog
 
+### 013
+
+### 012
+
+### 011
+
+### 010 V8 release v4.8
+
+25 November 2015 🏷️release
+
+ES6的两个特性的实现
+
+### 009 Jank Busters Part One
+
+30 October 2015 🏷️memory
+
+原理和开发人员的关注点（需求来源）可以看下。改进的目标讲解的比较清楚。技术细节没有讲。
+
+### 008 V8 release v4.7
+
+14 October 2015 🏷️release
+
+不熟悉JS的可以看看，熟悉的可以跳过。
+
+### 007 Custom startup snapshots
+
+25 September 2015 🏷️internals
+
+TODO 确认下这里的 snapshot 跟目前V8代码中的 mksnapshot 等概念是否是一致的。
+
+概念上类似于将代码内容确定的 builtin 编译成 so 库直接加载。
+
+另一个概念是JS是有宿主环境这个概念的，不同的宿主环境给出来的可用的函数不一样，例如nodejs和浏览器。
+
+### 006 V8 release v4.6
+
+28 August 2015 🏷️release
+
+1. 介绍了几个ES6的特性。对JS熟悉的可以跳过，不熟悉的建议看看，多学习点。
+2. 提到了四个避免 jank 的优化。目前建议是不用看了。可能已经过时。
+
+### 005 Getting garbage collection for free
+
+07 August 2015 🏷️internals 🏷️memory
+
+如果是没有接触过GC的概念的话，这篇需要看下。目前的GC已经有了一些改进，参考
+[Orinoco: The new V8 Garbage Collector Peter Marshall](https://www.bilibili.com/video/BV1TJ411n7pi)
+同时，增量GGC的基本思路目前是没变的。
+
+TODO 提到的Chromium的 task scheduler 不确定现在是否淘汰了。以及 vsync 的概念是否还有。
+
+### 004 Code caching
+
+27 July 2015 🏷️internals
+
+TODO 确认，不确定是否目前还是同样的实现。
+
+这里的 Code Caching 是类似将JS源代码解析到 BaseCompiler 编译之后的结果，
+优化的假设是一个脚本文件可以被多次使用，那么可以节约AST解析和输出的时间。
+现在这个想法可能逐步发展成了 WebAssembly？
+
+### 003 V8 release v4.5
+
+17 July 2015 🏷️release
+
+版本发布类的并不需要仔细看。主要都是 feature 的内容。本次添加了一些ES2015的语言特性。
+
+### 002 Digging into the TurboFan JIT
+
+13 July 2015 🏷️internals
+
+开始针对某些特定的JS代码启用 turbofan。提到了特性：SoN，多层次翻译和优化。
+明确的区分了JS语言、VM层和特定架构后端。这个目前也还是的。
+给了一个 SoN IR 的例子。具体的IR细节内容可以看V8文档中的 IR 介绍。
 
 ### 001 Hello, World!
 
