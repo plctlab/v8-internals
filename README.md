@@ -4,12 +4,15 @@
 
 V8 是 Google Chrome 浏览器和微软 Edge 浏览器的 JavaScript 执行引擎。本课程介绍如何成为 V8 的开发人员。注意这是硬核技术培训，每次视频请预留10个小时的上机编程练习时间。
 
-NOTICE: 目前处于连载状态，预计连续更新到2020年晚秋。
+NOTICE: 目前处于连载状态，预计连续更新到2020年底。
 可以关注B站 [@lazypaser](https://space.bilibili.com/296494084) 接收课程更新的推送。
 
 课件（Slides）、开源电子书、配套代码及相关资料存放在本仓库：
 
 https://github.com/lazyparser/v8-internals
+
+我们从2020年4月开始逐步对V8官方博客进行评论和内容有效性的梳理，请参考 [v8-blog-comments.md](v8-blog-comments.md)，
+同时我们非常欢迎提交 Pull Request 分享你的文章或评论。
 
 ## 课程视频和幻灯片列表
 
