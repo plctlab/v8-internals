@@ -79,16 +79,92 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 ### 033
 ### 032
 ### 031
-### 030
-### 029
-### 028
-### 027
-### 026
-### 025
-### 024
-### 023
-### 022
-### 021
+### 030 How V8 measures real-world performance
+Published 21 December 2016 · tagged with benchmarks
+
+在做性能测试之前需要阅读下这篇博客，给出了比技术分享视频更加简洁的 brief history。
+
+### 029 V8 ❤️ Node.js
+Published 15 December 2016 · tagged with Node.js
+
+好的好的。可以在 DevTools 中对 Node.js 进行调试。
+
+### 028 V8 release v5.6
+Published 02 December 2016 · tagged with release
+
+是个大版本更新。Ignition/TurboFan的两阶段架构开始启用，原有的Crankshaft在后续的版本中被移除了。
+内存的性能改进还是围绕着 Orinoco GC 的改进进行。这部分更小众，暂时没有关注。
+速度优化覆盖了一系列原先加入的ES6特性（估计是跟各个浏览器厂商在PK的结果）。
+
+相关阅读：
+https://benediktmeurer.de/2016/11/25/v8-behind-the-scenes-november-edition/
+
+
+### 027 WebAssembly browser preview
+Published 31 October 2016 · tagged with WebAssembly
+
+联合几个浏览器大厂宣布了 WebAssembly。
+由于目前我们还没有关注到 WebAssembly，暂时没有评论。
+时至今日wasm还是作为一个输入进入 turbofan 的。所以在 turbofan 的知识是共用的。
+
+### 026 V8 release v5.5
+Published 24 October 2016 · tagged with release
+
+语言特性介绍了 async functions，继续改进了内存优化。
+
+> The V8 inspector was migrated from Chromium to V8. The inspector code now fully resides in the V8 repository.
+
+### 025 Optimizing V8 memory consumption
+Published 07 October 2016 · tagged with memory benchmarks
+
+介绍了Chrome/V8模拟在野评测的评测的方法。
+
+提供了新的 V8 heap visualizer，同时介绍了内存优化的几个技术概述。
+如果是做浏览器或者后续的嵌入式的环境的话，或许需要看一看。
+
+有关 Tracing 的内容可以进一步从
+https://www.chromium.org/developers/how-tos/trace-event-profiling-tool
+获得。
+
+### 024 V8 release v5.4
+Published 09 September 2016 · tagged with release
+
+本次发布没有说ES6特性，主要是性能和内存改进的说明。
+
+### 023 Firing up the Ignition interpreter 23 August 2016 internals
+
+技术细节可以参考
+BlinkOn 6 Day 1 Talk 2- Ignition - an interpreter for V8
+https://www.bilibili.com/video/BV15J411J7Gf/
+
+以及V8的文档中的ignition部分。
+
+### 022 V8 at the BlinkOn 6 conference
+Published 21 July 2016 · tagged with presentations
+
+会议内容有价值，值得观看。
+油管内容已经搬运到B站：
+
+Real-world JavaScript performance
+https://www.bilibili.com/video/BV1e54y1d7HX/
+
+BlinkOn 6 Day 1 Talk 2- Ignition - an interpreter for V8
+https://www.bilibili.com/video/BV15J411J7Gf/
+
+How we measure and optimize for RAIL in V8’s GC #
+
+
+ECMAScript 2015 and beyond
+
+Tracing wrappers from V8 to Blink (lightning talk)
+
+
+### 021 V8 release v5.3
+Published 18 July 2016 · tagged with release
+
+启用了 Ignition 解释器。
+
+
 ### 020 V8 release v5.2
 Published 04 June 2016 · tagged with release
 
