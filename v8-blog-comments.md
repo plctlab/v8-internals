@@ -9,17 +9,155 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 
 ## V8 Blog
 
-### 013
+### 100
+### 099
+### 098
+### 097
+### 096
+### 095
+### 094
+### 093
+### 092
+### 091
+### 090
+### 089
+### 088
+### 087
+### 086
+### 085
+### 084
+### 083
+### 082
+### 081
+### 080
+### 079
+### 078
+### 077
+### 076
+### 075
+### 074
+### 073
+### 072
+### 071
+### 070
+### 069
+### 068
+### 067
+### 066
+### 065
+### 064
+### 063
+### 062
+### 061
+### 060
+### 059
+### 058
+### 057
+### 056
+### 055
+### 054
+### 053
+### 052
+### 051
+### 050
+### 049
+### 048
+### 047
+### 046
+### 045
+### 044
+### 043
+### 042
+### 041
+### 040
+### 039
+### 038
+### 037
+### 036
+### 035
+### 034
+### 033
+### 032
+### 031
+### 030
+### 029
+### 028
+### 027
+### 026
+### 025
+### 024
+### 023
+### 022
+### 021
+### 020 V8 release v5.2
+Published 04 June 2016 · tagged with release
 
-### 012
+其中提到的油管视频，我搬运到了B站，可以直接看：
+[BV1WK411L7zS](https://www.bilibili.com/video/BV1WK411L7zS/)
 
-### 011
+### 019 ES2015, ES2016, and beyond
+Published 29 April 2016 · tagged with ECMAScript
+
+对ES6标准不熟悉的可以看看。不涉及V8细节。
+
+### 018 V8 release v5.1
+Published 23 April 2016 · tagged with release
+
+新增JS特性我已经看不懂了。
+
+v5.1 版本开始有初步的wasm支持；继续改进了 orinoco。
+
+### 017 Jank Busters Part Two: Orinoco
+Published 12 April 2016 · tagged with internals memory
+
+有关V8的GC的，是必须要看的内容。
+
+对照 [Orinoco: The new V8 Garbage Collector Peter Marshall](https://www.bilibili.com/video/BV1TJ411n7pi)
+一起看。
+
+### 016 V8 release v5.0
+Published 15 March 2016 · tagged with release
+
+不熟悉ES6的同学可以按照 🏷️release 标签一步一步学习下。不至于一次知识点太多噎住了。
+
+### 015 Experimental support for WebAssembly in V8
+Published 15 March 2016 · tagged with WebAssembly
+
+等做到 WASM 的时候、并且要写PPT的时候需要回来考古下。
+
+代码方面不用看了，可以以代码为准。
+
+### 014 RegExp lookbehind assertions 26 February 2016 ECMAScript RegExp
+
+JS的正则表达式的一个功能点介绍。默认可以不看。
+
+### 013 V8 extras 04 February 2016 internals
+
+TODO 确认是否还存在。
+
+用更容易的方式从JS构建V8的 custom snapshot。
+
+> V8 extras provide a new and lightweight way for embedders to implement features.
+
+ref: https://v8.dev/blog/custom-startup-snapshots
+
+### 012 V8 release v4.9 26 January 2016 release
+
+JS的新技能。熟悉JS就不用看。
+
+（btw，对于我是有帮助的，原来JS又添加了这么多的 feature …… Proxy & Reflect）
+
+### 011 There’s Math.random(), and then there’s Math.random()
+
+17 December 2015 🏷️ECMAScript 🏷️internals
+
+安全问题相关。默认不用看。
 
 ### 010 V8 release v4.8
 
 25 November 2015 🏷️release
 
-ES6的两个特性的实现
+ES6的两个特性的实现。
 
 ### 009 Jank Busters Part One
 
