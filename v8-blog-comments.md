@@ -59,26 +59,115 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 ### 053
 ### 052
 ### 051
-### 050
-### 049
-### 048
-### 047
-### 046
-### 045
-### 044
-### 043
-### 042
-### 041
-### 040
-### 039
-### 038
-### 037
-### 036
-### 035
-### 034
-### 033
-### 032
-### 031
+### 050 V8 release v6.3
+Published 25 October 2017 · tagged with release
+
+可以不看。
+
+### 049 Optimizing ES2015 proxies in V8
+Published 05 October 2017 · tagged with ECMAScript benchmarks internals
+
+需要看。
+
+### 048 An internship on laziness: lazy unlinking of deoptimized functions
+Published 04 October 2017 · tagged with memory internals
+
+这位同学的PPT很魔性😄推荐看看。
+
+### 047 Temporarily disabling escape analysis
+Published 22 September 2017 · tagged with security
+
+不用看了。
+
+### 046 Elements kinds in V8
+Published 12 September 2017 · tagged with internals presentations
+
+视频我搬运到了B站，可以组合看下，如果是编译领域从业，对JS不熟悉的话，可以解惑：
+
+Mathias Bynens - V8 internals for JavaScript developers
+https://www.bilibili.com/video/BV1oJ411J7j1
+
+### 045 V8 release v6.2
+Published 11 September 2017 · tagged with release
+
+不用看。
+
+### 044 Fast properties in V8
+Published 30 August 2017 · tagged with internals
+
+需要看。
+
+### 043 About that hash flooding vulnerability in Node.js…
+Published 11 August 2017 · tagged with security
+
+不做安全的话不用看，已经过去了。
+
+### 042 V8 release v6.1
+Published 03 August 2017 · tagged with release
+
+不用看。
+
+
+### 041 V8 release v6.0
+Published 09 June 2017 · tagged with release
+
+不用看。
+
+### 040 Launching Ignition and TurboFan
+Published 15 May 2017 · tagged with internals
+
+第一次接触V8的需要看一下。
+
+那个logo应该不是一个灯笼，是两个火花装置尖端放电？
+### 039 V8 release v5.9
+Published 27 April 2017 · tagged with release
+
+v5.9 开始启用了 Igniton + TurboFan。
+
+### 038 Retiring Octane
+Published 12 April 2017 · tagged with benchmarks
+
+不用看。其实我们还是在用 Octane 的。
+
+### 037 V8 release v5.8
+Published 20 March 2017 · tagged with release
+
+可以不看。
+
+### 036 Fast for-in in V8
+Published 01 March 2017 · tagged with internals
+
+需要看一下。涉及到 for-in 的内部处理。性能提升部分不用细看，看原理就行。
+
+### 035 High-performance ES2015 and beyond
+Published 17 February 2017 · tagged with ECMAScript
+
+不用看。
+
+### 034 Help us test the future of V8!
+Published 14 February 2017 · tagged with internals
+
+不用看。
+
+### 033 One small step for Chrome, one giant heap for V8
+Published 09 February 2017 · tagged with memory
+
+Dev工具改进，感知内存压力并自动停止，防止对V8的堆造成压力。
+
+我们目前是只做V8的话不用看这篇。以后做Chromium的时候需要关注下是不是还是当前的实现。
+
+### 032 V8 release v5.7
+Published 06 February 2017 · tagged with release
+
+启用了 webassemly。 其它主要是性能改进。
+
+### 031 Speeding up V8 regular expressions
+Published 10 January 2017 · tagged with internals RegExp
+
+从 v5.7 开始ship新的regexp，从第三方的库实现，转移到了turbofan中，使用CSA形式。
+
+具体RE这部分实现我还没看。目前感觉不需要阅读。
+
 ### 030 How V8 measures real-world performance
 Published 21 December 2016 · tagged with benchmarks
 
