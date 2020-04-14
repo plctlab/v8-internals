@@ -31,34 +31,154 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 ### 081
 ### 080
 ### 079
-### 078
-### 077
-### 076
-### 075
-### 074
-### 073
-### 072
-### 071
-### 070
-### 069
-### 068
-### 067
-### 066
-### 065
-### 064
-### 063
-### 062
-### 061
-### 060
-### 059
-### 058
-### 057
-### 056
-### 055
-### 054
-### 053
-### 052
-### 051
+### 078 Trash talk: the Orinoco garbage collector
+
+标题玩梗 :-)
+
+技术报告值得一看，或者说是需要看。已经搬运到的国内B站：
+https://www.bilibili.com/video/BV1TJ411n7pi
+
+### 077 Speeding up spread elements
+Published 04 December 2018 · tagged with ECMAScript benchmarks
+
+暂时不用看。
+
+### 076 Faster async functions and promises
+Published 12 November 2018 · tagged with ECMAScript benchmarks presentations
+
+暂时不用看。
+
+### 075 V8 release v7.1
+Published 31 October 2018 · tagged with release
+
+基本不用看。
+
+### 074 V8 release v7.0
+Published 15 October 2018 · tagged with release
+
+基本不用看。
+
+### 073 Getting things sorted in V8
+Published 28 September 2018 · tagged with ECMAScript internals
+
+提到了 Timsort 在 torque 的介绍中也提到了，可以看一下本文。
+
+### 072 Improving DataView performance in V8
+Published 18 September 2018 · tagged with ECMAScript benchmarks
+
+可以不看。
+
+### 071 Celebrating 10 years of V8
+Published 11 September 2018 · tagged with benchmarks
+
+值得阅读。
+
+### 070 Liftoff: a new baseline compiler for WebAssembly in V8
+Published 20 August 2018 · tagged with WebAssembly internals
+
+做 WebAssembly 需要看。
+
+### 069 Embedded builtins
+Published 14 August 2018 · tagged with internals
+
+值得阅读。提供了不少内存布局中的细节信息。
+
+### 068 V8 release v6.9
+Published 07 August 2018 · tagged with release
+
+不用看。
+
+### 067 V8 release v6.8
+Published 21 June 2018 · tagged with release
+
+需要看一下，帮助理解V8的内存中数据结构改进（历史）轨迹。
+
+### 066 Concurrent marking in V8
+Published 11 June 2018 · tagged with internals memory
+
+GC 相关的。暂时不用看。以后做GC的时候回过头来看。
+
+### 065 V8 release v6.7
+Published 04 May 2018 · tagged with release
+
+不用看。
+
+### 064 Adding BigInts to V8
+Published 02 May 2018 · tagged with ECMAScript
+
+可以跳过去。
+
+### 063 Improved code caching
+Published 24 April 2018 · tagged with internals
+
+有需要 Code Caching 功能的可以看下。
+默认做 RISC-V 移植先不用看。
+
+### 062 V8 release v6.6
+Published 27 March 2018 · tagged with release
+
+1. GYP 没有了。从这个版本开始。
+2. Code Caching （还没搞清楚是哪一块的 Code Caching）的改进。
+3. 还有一系列内容。
+
+使用老旧版本V8的小伙伴或许需要关注下。
+
+### 061 Background compilation
+Published 26 March 2018 · tagged with internals
+
+不用看。
+
+### 060 Tracing from JS to the DOM and back again
+Published 01 March 2018 · tagged with internals memory
+
+Chrome’s DevTools 不用看。做到浏览器的时候才需要。
+
+### 059 Lazy deserialization
+Published 12 February 2018 · tagged with internals
+
+相关，但是可以不看，一般移植工作做不到这里。
+
+### 058 V8 release v6.5
+Published 01 February 2018 · tagged with release
+
+新增了 untrusted code 模式。其它不用看。
+
+### 057 Optimizing hash tables: hiding the hash code
+Published 29 January 2018 · tagged with internals
+
+有一个设计细节，可以看一下。不看也行，代码中有。
+
+### 056 Chrome welcomes Speedometer 2.0!
+Published 24 January 2018 · tagged with benchmarks
+
+不用看。
+
+### 055 V8 release v6.4
+Published 19 December 2017 · tagged with release
+
+不用看。
+
+### 054 JavaScript code coverage
+Published 13 December 2017 · tagged with internals
+
+
+### 053 Orinoco: young generation garbage collection
+Published 29 November 2017 · tagged with internals memory
+
+parallel Scavenger。
+
+没看。需要改GC的性能的时候再看吧。
+
+### 052 Taming architecture complexity in V8 — the CodeStubAssembler
+Published 16 November 2017 · tagged with internals
+
+需要重点看下。看完之后去看文档。
+
+### 051 Announcing the Web Tooling Benchmark
+Published 06 November 2017 · tagged with benchmarks Node.js
+
+不用看。
+
 ### 050 V8 release v6.3
 Published 25 October 2017 · tagged with release
 
@@ -72,7 +192,8 @@ Published 05 October 2017 · tagged with ECMAScript benchmarks internals
 ### 048 An internship on laziness: lazy unlinking of deoptimized functions
 Published 04 October 2017 · tagged with memory internals
 
-这位同学的PPT很魔性😄推荐看看。
+~~这位同学的PPT很魔性😄推荐看看。~~
+更正：记错了，blog中给出来的slides非常正经，而且做V8的同学是需要看懂 deopt 的。
 
 ### 047 Temporarily disabling escape analysis
 Published 22 September 2017 · tagged with security
@@ -95,7 +216,7 @@ Published 11 September 2017 · tagged with release
 ### 044 Fast properties in V8
 Published 30 August 2017 · tagged with internals
 
-需要看。
+这篇blog的内容所有做V8的同学都需要阅读下（以保证自己理解了JS的语言特性以及V8的处理方式）
 
 ### 043 About that hash flooding vulnerability in Node.js…
 Published 11 August 2017 · tagged with security
