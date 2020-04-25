@@ -29,14 +29,22 @@ Google V8 团队的技术博客（Blog）是理解V8架构和实现细节、后�
 ### 083
 ### 082
 ### 081
-### 080
-### 079
-### 078 Trash talk: the Orinoco garbage collector
+### 080 V8 release v7.3
+Published 07 February 2019 · tagged with release
+
+可以不用看。
+
+### 079 Trash talk: the Orinoco garbage collector
 
 标题玩梗 :-)
 
 技术报告值得一看，或者说是需要看。已经搬运到的国内B站：
 https://www.bilibili.com/video/BV1TJ411n7pi
+
+### 078 V8 release v7.2
+Published 18 December 2018 · tagged with release
+
+可以不用看。
 
 ### 077 Speeding up spread elements
 Published 04 December 2018 · tagged with ECMAScript benchmarks
