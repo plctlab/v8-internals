@@ -29,50 +29,94 @@ https://github.com/lazyparser/v8-internals
 
 ## V8 相关的技术分享和资源
 
+V8中的浮点转整型 - 陆亚涵 - 20200624 - PLCT实验室
+
+https://www.bilibili.com/video/BV1yA411v7m2
+
+V8：几个Torque语句分析 - 杨文章 - 20200610 - PLCT实验室
+
+https://www.bilibili.com/video/BV1sZ4y1W7YQ
+
+V8引擎TurboFan后端代码浅析 - 邱吉 - V8技术讨论会 - OSDT社区 - 20200607
+
+https://www.bilibili.com/video/BV1oZ4y1n7E8
+
+V8中的Snapshot机制分析 - 杨文章 - 20200606 - PLCT实验室
+
+https://www.bilibili.com/video/BV1UV411r7Nq
+
+杨文章-Dive-Into-V8-Torque-PLCT实验室-20200527
+
+https://www.bilibili.com/video/BV1JK411s7Pv
+
+邹小芳-V8移植简介-PLCT实验室-20200527
+
+https://www.bilibili.com/video/BV11K4y1t76G
+
+V8单元测试框架 - 陆亚涵 - 20200513 - PLCT实验室
+
+https://www.bilibili.com/video/BV1pp4y1Q71M
+
 深入V8引擎-技术分享：V8 Assembler 学习小结 - 陈家友
+
 https://www.bilibili.com/video/BV1cc411h747
 
 PLCT实验室分享 - 深入V8引擎：V8 Call Interface Descriptors - 邹小芳
+
 https://www.bilibili.com/video/BV1TE411N7k7
 
 PLCT实验室技术分享-V8解释器字节码代码浅析 - 张江涛
+
 https://www.bilibili.com/video/BV1q741137GB
 
 Sigurd Scheider- Inside V8- The choreography of Ignition and TurboFan
+
 https://www.bilibili.com/video/BV1uJ411H7ok
 
 V8- an open source JavaScript engine
+
 https://www.bilibili.com/video/BV15J411J7sr
 
 BlinkOn 6 Day 1 Talk 2- Ignition - an interpreter for V8
+
 https://www.bilibili.com/video/BV15J411J7Gf
 
 What’s new in JavaScript (Google I-O ’19)[00]
+
 https://www.bilibili.com/video/BV1RJ411J7ZD
 
 Embedding V8 in the real world by Stanimira Vlaeva - JSConf EU 2019
+
 https://www.bilibili.com/video/BV1RJ411J7Wf
 
 Franziska Hinkelmann- JavaScript engines - how do they even? - JSConf EU
+
 https://www.bilibili.com/video/BV1oJ411J7kD
 
 Franziska Hinkelmann - Performance Profiling for V8 - Script17
+
 https://www.bilibili.com/video/BV1RJ411J7Y6
 
 Franziska Hinkelmann- A Trip to the Zoo- SpiderMonkey, SquirrelFish, Nashorn, V8
+
 https://www.bilibili.com/video/BV1oJ411J7z8
 
 Mathias Bynens - V8 internals for JavaScript developers
+
 https://www.bilibili.com/video/BV1oJ411J7j1
 
 JavaScript Engines- The Good Parts™ - Mathias Bynens & Benedikt Meurer - JSConf
+
 https://www.bilibili.com/video/BV1oJ411J72X
 
 Orinoco: The new V8 Garbage Collector Peter Marshall
+
 https://www.bilibili.com/video/BV1TJ411n7pi
 
 Understanding Why The New V8 Is So Fast, One Demo At A Time
+
 https://www.bilibili.com/video/BV1TJ411n78Y
 
 MNUG 2017.03.23 TurboFan: A new code generation architecture for V8
+
 https://www.bilibili.com/video/BV137411e7TQ
