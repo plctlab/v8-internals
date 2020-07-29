@@ -29,6 +29,10 @@ https://github.com/lazyparser/v8-internals
 
 ## V8 相关的技术分享和资源
 
+RISC-V <3 V8 w/ Keynote: The Roadmap of V8 RISC-V Porting - Peng Wu |OSDT Meetup
+
+https://www.bilibili.com/video/BV1da4y1a7JD
+
 V8中的浮点转整型 - 陆亚涵 - 20200624 - PLCT实验室
 
 https://www.bilibili.com/video/BV1yA411v7m2
