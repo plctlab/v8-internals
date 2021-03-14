@@ -29,6 +29,30 @@ https://github.com/lazyparser/v8-internals
 
 ## V8 相关的技术分享和资源
 
+WebAssembly Compilation Pipeline - 姜宇辰 - 20210127 - PLCT实验室
+
+https://www.bilibili.com/video/BV19o4y1R71F
+
+How to debug V8 学习报告 - 梁斌 - 20210113 - PLCT实验室
+
+https://www.bilibili.com/video/BV1jU4y147eD
+
+王建中 - 在 V8 中添加一个 RISC-V B 扩展指令 - 20201216 - PLCT实验室
+
+https://www.bilibili.com/video/BV1Gt4y1k7Bx
+
+陆亚涵：V8中的指针压缩及其实现源码分析【第12届开源开发工具大会（OSDT2020）】
+
+https://www.bilibili.com/video/BV1oK4y1572D
+
+陶立强：V8寄存器分配源码分析——以添加RISCV-C扩展为背景【第12届开源开发工具大会（OSDT2020）】
+
+https://www.bilibili.com/video/BV19X4y1M7Ax
+
+RISC-V V8 移植调试记录：关于一次奇怪的 int32 的值 - 陆亚涵 - 20200801 - PLCT实验室
+
+https://www.bilibili.com/video/BV1SZ4y1T7Rw
+
 V8 for RISC-V 开发小结 - 陈家友 - 20200729 - PLCT实验室
 
 https://www.bilibili.com/video/BV1cD4y1U74R/
