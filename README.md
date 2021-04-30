@@ -28,6 +28,7 @@ https://github.com/lazyparser/v8-internals
 |TBD|TBD|邱吉|第08课：TBD|
 
 ## V8 相关的技术分享和资源
+v8中LinearScanRegisterAllocation的伪代码和源码分析-陆亚涵-20210430-PLCT实验室
 
 WebAssembly Compilation Pipeline - 姜宇辰 - 20210127 - PLCT实验室
 
