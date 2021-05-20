@@ -33,7 +33,7 @@
 1.  RVV中不同的平台可能会有不同的VLEN,SLEN,ELEN配置，是否需要支持根据配置参数来code-gen? 注：Spike支持配置
 
 **工作进度**
-- [ ] RVV指令添加 https://yt.droid.ac.cn/whale/v8-riscv/-/issues/237#note_101376
+- [ ] RVV指令添加 
 - [ ] 在Simulator/QEMU/真实硬件上运行包含一条RVV指令的SIMD
 ```
 #include <wasm_simd128.h>
