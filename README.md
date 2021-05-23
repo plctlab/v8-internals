@@ -27,6 +27,12 @@ https://github.com/lazyparser/v8-internals
 |TBD|TBD|吴伟|第07课：TBD，torque|
 |TBD|TBD|邱吉|第08课：TBD|
 
+## 淦！移植个V8不可能这么难！
+|Video|Slides|Author|Title|
+|----|----|----|----|
+|[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=1)||20210416 - 邱吉 - Security Strategies in V8|
+|[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=2)|[02.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/v8%E4%B8%ADLinearScanRegisterAllocation%E7%9A%84%E4%BC%AA%E4%BB%A3%E7%A0%81%E5%92%8C%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.pdf)|20210430 - 陆亚涵 - LinearScanRegisterAllocation 算法分析|
+|[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=3)||20210514 - 邱吉 - V8后端代码生成：常量池及其实现|
 ## V8 相关的技术分享和资源
 v8中LinearScanRegisterAllocation的伪代码和源码分析-陆亚涵-20210430-PLCT实验室
 
