@@ -33,6 +33,7 @@ https://github.com/lazyparser/v8-internals
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=1)|[01.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8-security-spectre-mitigation.pdf)|20210416 - 邱吉 - Security Strategies in V8: Spectre漏洞的防御|
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=2)|[02.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/v8%E4%B8%ADLinearScanRegisterAllocation%E7%9A%84%E4%BC%AA%E4%BB%A3%E7%A0%81%E5%92%8C%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.pdf)|20210430 - 陆亚涵 - LinearScanRegisterAllocation 算法分析|
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=3)|[03.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8-constant-pool.pdf)|20210514 - 邱吉 - V8后端代码生成：常量池及其实现|
+|[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=4)|[04.pdf](https://docs.google.com/presentation/d/1LquBZxASLtkYMaI5DKmDLK2IyDgM6N61Y8XEOseoVl4/edit?usp=sharing)|20210528- 陆亚涵 - trampoline 和 Embedd Builtins|
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=3)|[05.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8-test-framework.pdf)|20210613 - 邱吉 - 学习V8的测试框架|
 
 ## V8 相关的技术分享和资源
