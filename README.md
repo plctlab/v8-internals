@@ -35,6 +35,7 @@ https://github.com/lazyparser/v8-internals
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=3)|[03.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8-constant-pool.pdf)|20210514 - 邱吉 - V8后端代码生成：常量池及其实现|
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=4)|[04.pdf](https://docs.google.com/presentation/d/1LquBZxASLtkYMaI5DKmDLK2IyDgM6N61Y8XEOseoVl4/edit?usp=sharing)|20210528- 陆亚涵 - trampoline 和 Embedd Builtins|
 |[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=3)|[05.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8-test-framework.pdf)|20210613 - 邱吉 - 学习V8的测试框架|
+|[BV1hp4y1t7Mx](https://www.bilibili.com/video/BV1hp4y1t7Mx?p=12)|[012.pdf](https://github.com/plctlab/v8-internals/blob/master/slides/V8%E4%B8%AD%E7%9A%84inline%20cache%E5%AE%9E%E7%8E%B0.pdf)|20211031 - 陆亚涵 - v8中的inline cache实现||
 
 ## V8 相关的技术分享和资源
 v8中LinearScanRegisterAllocation的伪代码和源码分析-陆亚涵-20210430-PLCT实验室
